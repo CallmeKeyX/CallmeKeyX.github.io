@@ -1,3 +1,7 @@
+* {
+    margin: none;
+    padding: none;
+}
 @font-face {
     font-family: Outfit-Regular;
     src: url(Outfit-Regular.ttf);
@@ -11,7 +15,7 @@ body{
 }
 .attribution{
     position: absolute;
-    top: 950px;
+    top: 96%;
     font-family: Outfit-Bold;
     font-size: 90%;
 }
@@ -19,19 +23,19 @@ body{
     position: relative;
     border: 1px solid rgb(44, 125, 250);
     border-radius: 10px;
-    width: 390px;
+    width: 91.4%;
     left: 14px;
     top: 14px;
 }
 .container{
     background-color: white;
     position: absolute;
-    width: 420px;
-    height: 640px;
+    width: 93%;
+    height: 83%;
     border: 2px solid white;
     border-radius: 25px;
     box-shadow: 15px 29px 5px rgb(210, 222, 236);
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -50,4 +54,81 @@ body{
     font-size: 20px;
     top: 35px;
     font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        background-color: white;
+        position: absolute;
+        width: 80%;
+        height: 83%;
+        border: 2px solid white;
+        border-radius: 25px;
+        box-shadow: 15px 29px 5px rgb(210, 222, 236);
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #codepic {
+        position: relative;
+        border: 1px solid rgb(44, 125, 250);
+        border-radius: 10px;
+        width: 95%;
+        left: 14px;
+        top: 14px;
+    }
+    #bighead {
+        position: relative;
+        text-align: center;
+        top: 5%;
+        font-family: Outfit-Bold;
+        font-size: 170%;
+    }
+    #smallhead {
+        position: relative;
+        text-align: center;
+        font-family: Outfit-Regular;
+        color: hsl(214, 3%, 57%);
+        font-size: 131%;
+        top: 5%;
+        font-weight: lighter;
+    }
+}
+@media only screen and (min-width: 1900px) {
+    .container{
+        background-color: white;
+        position: absolute;
+        width: 28%;
+        height: 72%;
+        border: 2px solid white;
+        border-radius: 25px;
+        box-shadow: 15px 29px 5px rgb(210, 222, 236);
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #codepic {
+        position: relative;
+        border: 1px solid rgb(44, 125, 250);
+        border-radius: 10px;
+        width: 90%;
+        left: 4.68%;
+        top: 3%;
+    }
+    #bighead {
+        position: relative;
+        text-align: center;
+        top: 5%;
+        font-family: Outfit-Bold;
+        font-size: 140%;
+    }
+    #smallhead {
+        position: relative;
+        text-align: center;
+        font-family: Outfit-Regular;
+        color: hsl(214, 3%, 57%);
+        font-size: 113%;
+        top: 5%;
+        font-weight: lighter;
+    }
 }
