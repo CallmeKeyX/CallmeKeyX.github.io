@@ -1,134 +1,356 @@
 * {
+    text-decoration: none;
     margin: none;
     padding: none;
 }
+
 @font-face {
-    font-family: Outfit-Regular;
-    src: url(Outfit-Regular.ttf);
-}
-@font-face {
-    font-family: Outfit-Bold;
-    src: url(Outfit-Bold.ttf);
-}
-body{
-    background-color: rgb(213, 225, 239);
-}
-.attribution{
-    position: absolute;
-    top: 96%;
-    font-family: Outfit-Bold;
-    font-size: 90%;
-}
-#codepic{
-    position: relative;
-    border: 1px solid rgb(44, 125, 250);
-    border-radius: 10px;
-    width: 91.4%;
-    left: 14px;
-    top: 14px;
-}
-.container{
-    background-color: white;
-    position: absolute;
-    width: 93%;
-    height: 83%;
-    border: 2px solid white;
-    border-radius: 25px;
-    box-shadow: 15px 29px 5px rgb(210, 222, 236);
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#bighead{
-    position: relative;
-    text-align: center;
-    top: 30px;
-    font-family: Outfit-Bold;
-    font-size: 150%;
-}
-#smallhead{
-    position: relative;
-    text-align: center;
-    font-family: Outfit-Regular;
-    color: hsl(214, 3%, 57%);
-    font-size: 20px;
-    top: 35px;
-    font-weight: lighter;
+    font-family: Mukta-Regular;
+    src: url(fonts/Mukta-Regular.ttf);
 }
 
-@media only screen and (min-width: 768px) {
-    .container{
-        background-color: white;
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(fonts/Outfit-Regular.ttf);
+}
+
+body {
+    background-color: rgb(194, 214, 236);
+}
+
+.welcome-img {
+    opacity: 0.29;
+}
+
+@media screen and (max-width: 320px) {
+
+    #tabs {
+        display: none;
+    }
+
+    #top-img {
         position: absolute;
-        width: 80%;
-        height: 83%;
-        border: 2px solid white;
-        border-radius: 25px;
-        box-shadow: 15px 29px 5px rgb(210, 222, 236);
-        top: 47%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width:89vw;
+        top: -0.5vw;
+        left:  6vw;
     }
-    #codepic {
-        position: relative;
-        border: 1px solid rgb(44, 125, 250);
-        border-radius: 10px;
-        width: 95%;
-        left: 14px;
-        top: 14px;
+
+    #wel-img1 {
+        display: none;
     }
-    #bighead {
-        position: relative;
-        text-align: center;
-        top: 5%;
+
+    #vde-img {
+        position: absolute;
+        width: 45vw;
+        top: 116vw;
+        left: 27vh;
+        rotate: 10deg;
+    }
+
+    #wel-img2 {
+        position: absolute;
+        width: 106vw;
+        left: -6.1vw;
+        top: 31.1vw;
+    }
+
+    #din-img {
+        position: absolute;
+        top: 31vw;
+        width: 70vw;
+        rotate: -2deg;
+        left: -15.5vw;
+    }
+
+    .welcome-text {
+        position: absolute;
+        font-size: 11.5;
+        left: 39.5vw;
+        top: 45.5vw;
         font-family: Outfit-Bold;
-        font-size: 170%;
+        text-shadow: 1px 2px white;
     }
-    #smallhead {
-        position: relative;
-        text-align: center;
+
+    .lolol {
+        position: absolute;
+        font-size: 15;
+        left: 3.5vw;
+        top: 89vw;
         font-family: Outfit-Regular;
-        color: hsl(214, 3%, 57%);
-        font-size: 131%;
-        top: 5%;
-        font-weight: lighter;
+        text-shadow: 1px -1px white;
+        font-weight: bolder;
+    }
+
+    #leistungen {
+        position: absolute;
+        bottom: -153vw;
+        font-family: Mukta-Regular;
+        font-size: 19;
+        left: 4vw;
+    }
+
+    #kontakt {
+        position: absolute;
+        font-size: 15;
+        left: -28vw;
+        top: 350vw;
+    }
+
+    .copyright {
+        position: absolute;
+        font-size: 16;
+        top: 445vw;
+        padding-bottom: 5px;
     }
 }
-@media only screen and (min-width: 1900px) {
-    .container{
-        background-color: white;
+
+@media screen and (max-width: 750px) {
+
+    #tabs {
+        display: none;
+    }
+
+    #top-img {
         position: absolute;
-        width: 28%;
-        height: 72%;
-        border: 2px solid white;
-        border-radius: 25px;
-        box-shadow: 15px 29px 5px rgb(210, 222, 236);
-        top: 47%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width:89vw;
+        top: -0.5vw;
+        left:  6vw;
     }
-    #codepic {
-        position: relative;
-        border: 1px solid rgb(44, 125, 250);
-        border-radius: 10px;
-        width: 90%;
-        left: 4.68%;
-        top: 3%;
+
+    #wel-img1 {
+        display: none;
     }
-    #bighead {
-        position: relative;
-        text-align: center;
-        top: 5%;
+
+    #vde-img {
+        position: absolute;
+        width: 43vw;
+        top: 116vw;
+        left: 53vw;
+        rotate: 10deg;
+    }
+
+    #wel-img2 {
+        position: absolute;
+        width: 106vw;
+        left: -6.1vw;
+        top: 31.1vw;
+    }
+
+    #din-img {
+        position: absolute;
+        top: 31vw;
+        width: 67vw;
+        rotate: -2deg;
+        left: -15vw;
+    }
+
+    .welcome-text {
+        position: absolute;
+        font-size: 25;
+        left: 42vw;
+        top: 48vw;
         font-family: Outfit-Bold;
-        font-size: 140%;
+        text-shadow: 1px 2px white;
     }
-    #smallhead {
-        position: relative;
-        text-align: center;
+
+    .lolol {
+        position: absolute;
+        font-size: 36;
+        left: 3.5vw;
+        top: 89vw;
         font-family: Outfit-Regular;
-        color: hsl(214, 3%, 57%);
-        font-size: 113%;
-        top: 5%;
-        font-weight: lighter;
+        text-shadow: 1px -1px white;
+        font-weight: bolder;
+    }
+
+    #leistungen {
+        position: absolute;
+        bottom: -145vw;
+        font-family: Mukta-Regular;
+        font-size: 40;
+        left: 5vw;
+    }
+
+    #kontakt {
+        position: absolute;
+        font-size: 35;
+        left: -28vw;
+        top: 350vw;
+    }
+
+    .copyright {
+        position: absolute;
+        font-size: 35;
+        top: 445vw;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1179px) {
+
+    #tabs {
+        display: none;
+    }
+
+    #top-img {
+        position: absolute;
+        width:89vw;
+        top: -0.5vw;
+        left:  6vw;
+    }
+
+    #wel-img1 {
+        display: none;
+    }
+
+    #vde-img {
+        position: absolute;
+        width: 43vw;
+        top: 116vw;
+        left: 53vw;
+        rotate: 10deg;
+    }
+
+    #wel-img2 {
+        position: absolute;
+        width: 106vw;
+        left: -6.1vw;
+        top: 31.1vw;
+    }
+
+    #din-img {
+        position: absolute;
+        top: 31vw;
+        width: 67vw;
+        rotate: -2deg;
+        left: -15vw;
+    }
+
+    .welcome-text {
+        position: absolute;
+        font-size: 39;
+        left: 42vw;
+        top: 48vw;
+        font-family: Outfit-Bold;
+        text-shadow: 5px 5px white;
+    }
+
+    .lolol {
+        position: absolute;
+        font-size: 55;
+        left: 3.5vw;
+        top: 89vw;
+        font-family: Outfit-Regular;
+        text-shadow: 5px -2px white;
+        font-weight: bolder;
+    }
+
+    #leistungen {
+        position: absolute;
+        bottom: -105vw;
+        font-family: Mukta-Regular;
+        font-size: 66;
+        left: 5vw;
+    }
+
+    #kontakt {
+        position: absolute;
+        font-size: 53;
+        left: -26vw;
+        top: 340vw;
+    }
+
+    .copyright {
+        position: absolute;
+        font-size: 50;
+        top: 445vw;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    #tabs {
+        display: none;
+    }
+
+    #top-img {
+        position: absolute;
+        width:89vw;
+        top: -0.5vw;
+        left:  6vw;
+    }
+
+    #wel-img1 {
+        display: none;
+    }
+
+    #vde-img {
+        position: absolute;
+        width: 43vw;
+        top: 116vw;
+        left: 53vw;
+        rotate: 10deg;
+    }
+
+    #wel-img2 {
+        position: absolute;
+        width: 106vw;
+        left: -6.1vw;
+        top: 31.1vw;
+    }
+
+    #din-img {
+        position: absolute;
+        top: 31vw;
+        width: 67vw;
+        rotate: -2deg;
+        left: -15vw;
+    }
+
+    .welcome-text {
+        position: absolute;
+        font-size: 25;
+        left: 42vw;
+        top: 48vw;
+        font-family: Outfit-Bold;
+        text-shadow: 1px 2px white;
+    }
+
+    .lolol {
+        position: absolute;
+        font-size: 36;
+        left: 3.5vw;
+        top: 89vw;
+        font-family: Outfit-Regular;
+        text-shadow: 1px -1px white;
+        font-weight: bolder;
+    }
+
+    #leistungen {
+        position: absolute;
+        bottom: -145vw;
+        font-family: Mukta-Regular;
+        font-size: 40;
+        left: 5vw;
+    }
+
+    #kontakt {
+        position: absolute;
+        font-size: 35;
+        left: -28vw;
+        top: 350vw;
+    }
+
+    .copyright {
+        position: absolute;
+        font-size: 35;
+        top: 445vw;
+        padding-bottom: 5px;
     }
 }
